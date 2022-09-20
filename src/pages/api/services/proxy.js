@@ -83,6 +83,7 @@ const serviceProxyHandlers = {
   adguard: genericProxyHandler,
   mastodon: genericProxyHandler,
   peertube: genericProxyHandler,
+  strelaysrv: genericProxyHandler,
   // uses X-API-Key (or similar) header auth
   gotify: credentialedProxyHandler,
   portainer: credentialedProxyHandler,

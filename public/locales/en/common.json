@@ -178,5 +178,10 @@
         "totalUsers": "Users",
         "totalVideos": "Videos",
         "totalLocalVideoFilesSize": "Video Storaged"
+    },
+    "strelaysrv": {
+        "numActiveSessions": "Sessions",
+        "numConnections": "Connections",
+        "dataRelayed": "Data Relayed"
     }
 }

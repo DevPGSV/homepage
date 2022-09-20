@@ -29,6 +29,7 @@ import Jackett from "./widgets/service/jackett";
 import AdGuard from "./widgets/service/adguard";
 import Mastodon from "./widgets/service/mastodon";
 import Peertube from "./widgets/service/peertube";
+import StRelaySrv from "./widgets/service/strelaysrv";
 
 const widgetMappings = {
   docker: Docker,
@@ -59,7 +60,8 @@ const widgetMappings = {
   jackett: Jackett,
   adguard: AdGuard,
   mastodon: Mastodon,
-  peertube: Peertube
+  peertube: Peertube,
+  strelaysrv: StRelaySrv,
 };
 
 export default function Widget({ service }) {

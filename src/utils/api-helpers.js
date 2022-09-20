@@ -26,6 +26,7 @@ const formats = {
   adguard: `{url}/control/{endpoint}`,
   mastodon: `{url}/api/v1/{endpoint}`,
   peertube: `{url}/api/v1/{endpoint}`,
+  strelaysrv: `{url}/{endpoint}`,
 };
 
 export function formatApiCall(api, args) {
