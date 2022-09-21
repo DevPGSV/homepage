@@ -177,7 +177,7 @@
     "peertube": {
         "totalUsers": "Users",
         "totalVideos": "Videos",
-        "totalLocalVideoFilesSize": "Video Storaged"
+        "totalLocalVideoFilesSize": "Storaged"
     },
     "strelaysrv": {
         "numActiveSessions": "Sessions",
